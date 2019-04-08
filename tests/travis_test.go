@@ -8,5 +8,5 @@ import (
 
 func Test_Travis(t *testing.T){
 	err :=  errors.New("test err")
-	assert.NoError(t,err)
+	assert.Error(t,err)
 }
