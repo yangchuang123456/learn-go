@@ -18,6 +18,7 @@ deploy:
   api_key:
     secure: LfiqrezxgedMq5ojlJYzckll4O8EFPlfOB0zXVR1U/oO7G7IHbi8XO6yeXF15/tgc1KCjJWF9XEsr+ptXo/K1qeqxzuBgWgyMyXpi9+8tJJm+WXF9ciKznW/Bu9uFoBF36npXUOPBNBh1vABdNLjgvkkQd4cB14Iy4LP1s7y53mMh8t7Noq0bu4B6v5xeVIFu4T6th3j9ALbM174Aeu+wln/gIjIjz/+8IxD9NMcZ73+8ssLDVBzre2syc/yH8kk1Inxe0LE6V/BtpTSEAz+uDn6w4RxASioeKvFdBj3YRXGB1EpNC4aJwcqtkevdmPEwSNMMQxymETIwi4lQU1o+GwJsI+0EsNdLB42OsdU/W3UEHB0T47z764GcdxHEeGgL/cAo5JPN9vlr/8RKu0fFo25Sk9z3t+1bi0idV4H6PSlZDr6EhIzIos9lIDbjd0Dyo3gaezDXgsJYH2Lqr40DFVlOw2umbO7O++HC8w/GLwtZWn96tIePpPn8S6WAyG6KH0Ny0sdUnFaVbKdxkyii79Bw6cGHmefSS/PrF/3wYffwdGJH+1yEW78ifC3YoFbuaOudqQWha+dhQU0hjn6lsuWUpxBD2iuclUpcYN8aN6ApzuJDUA+whxtQ7c6txzkPnWv6w0syMRyJ50SWLFHubPyuXeMT+B/cqP2F+IExpg=
   file: learn-go
+  skip_cleanup: true # 因为我要上传可执行文件到 release，所以不能自动把这个文件清除
   on:
     repo: yangchuang123456/learn-go
     branch: dev
