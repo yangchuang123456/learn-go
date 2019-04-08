@@ -1,12 +1,10 @@
 package tests
 
 import (
-	"errors"
-	"github.com/stretchr/testify/assert"
+	"github.com/ontio/ontology/common/log"
 	"testing"
 )
 
 func Test_Travis(t *testing.T){
-	err :=  errors.New("test err")
-	assert.Error(t,err)
+	log.Info("test travis")
 }
