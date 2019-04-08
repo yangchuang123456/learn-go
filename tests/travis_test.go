@@ -1,10 +1,10 @@
 package tests
 
 import (
-	"github.com/ontio/ontology/common/log"
+	"fmt"
 	"testing"
 )
 
 func Test_Travis(t *testing.T){
-	log.Info("test travis")
+	fmt.Printf("test travis\r\n")
 }
