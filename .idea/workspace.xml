@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8aa7fa4-926b-4103-9f56-6a662e47ad19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/metrics/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pprof/pprof_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urfave-cli/app-run/app_run_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urfave-cli/flags/flags.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urfave-cli/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urfave-cli/test_cli.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filepath/filepath_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-regular/regular_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis_backup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis_backup.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/travis_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/travis_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,74 +17,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/urfave-cli/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#20#129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urfave-cli/app-run/app_run_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
+            <state relative-caret-position="232">
               <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/go-regular/regular_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
-                <element signature="e#17#126#0" expanded="true" />
+                <element signature="e#20#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urfave-cli/test_cli.sh">
+        <entry file="file:///usr/local/go/src/regexp/regexp.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="158">
+              <caret line="1072" column="18" selection-start-line="1072" selection-start-column="18" selection-end-line="1072" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/testing/testing.go">
+        <entry file="file://$PROJECT_DIR$/filepath/filepath_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="1051" selection-start-line="1051" selection-end-line="1051" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/runtime/panic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="689" selection-start-line="689" selection-end-line="689" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urfave-cli/flags/flags.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="380">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
-                <element signature="e#15#61#0" expanded="true" />
+                <element signature="e#18#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/app.go">
+        <entry file="file:///usr/local/go/src/os/types.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+            <state relative-caret-position="166">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/path/filepath/path.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="403" column="33" selection-start-line="403" selection-start-column="33" selection-end-line="403" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/log/log.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="300" column="5" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/flag.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="1216">
               <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
             </state>
           </provider>
@@ -108,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/go/src/flag/flag.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="17879">
               <caret line="951" column="38" selection-start-line="951" selection-start-column="33" selection-end-line="951" selection-end-column="38" />
             </state>
           </provider>
@@ -117,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/context.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="3078">
               <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
             </state>
           </provider>
@@ -165,14 +155,16 @@
         <option value="$PROJECT_DIR$/urfave-cli/app-run/app_run_test.go" />
         <option value="/usr/local/go/src/flag/flag.go" />
         <option value="$PROJECT_DIR$/urfave-cli/main.go" />
+        <option value="$PROJECT_DIR$/filepath/filepath_test.go" />
+        <option value="$PROJECT_DIR$/go-regular/regular_test.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="88" />
-    <option name="y" value="75" />
+    <option name="x" value="238" />
+    <option name="y" value="64" />
     <option name="width" value="1746" />
-    <option name="height" value="1005" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -190,24 +182,17 @@
             <path>
               <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-go" type="462c0819:PsiDirectoryNode" />
-              <item name="urfave-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="filepath" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-go" type="462c0819:PsiDirectoryNode" />
-              <item name="urfave-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="app-run" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-go" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="go-regular" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-go" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run">
+  <component name="RunManager" selected="Go Test.Test_Regular in github.com/yangchuang123456/learn-go/go-regular">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -269,6 +254,17 @@
       <pattern value="^Test_PProf$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go" />
+      <working_directory value="$PROJECT_DIR$/go-regular" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/yangchuang123456/learn-go/go-regular" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Regular$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$/urfave-cli/app-run" />
@@ -280,68 +276,57 @@
       <pattern value="^Test_appRun$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_metricMeter in github.com/yangchuang123456/learn-go/metrics" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_filePathWalk in github.com/yangchuang123456/learn-go/filepath" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/metrics" />
+      <working_directory value="$PROJECT_DIR$/filepath" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/yangchuang123456/learn-go/metrics" />
+      <package value="github.com/yangchuang123456/learn-go/filepath" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_metricMeter$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_metricsHistogram in github.com/yangchuang123456/learn-go/metrics" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/metrics" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/yangchuang123456/learn-go/metrics" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_metricsHistogram$" />
+      <pattern value="^Test_filePathWalk$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_Regular in github.com/yangchuang123456/learn-go/go-regular" />
+        <item itemvalue="Go Test.Test_filePathWalk in github.com/yangchuang123456/learn-go/filepath" />
         <item itemvalue="Go Test.Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.Test_PProf in github.com/yangchuang123456/learn-go/pprof" />
-        <item itemvalue="Go Test.Test_metricMeter in github.com/yangchuang123456/learn-go/metrics" />
-        <item itemvalue="Go Test.Test_metricsHistogram in github.com/yangchuang123456/learn-go/metrics" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 22m 51s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 09m 46s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 24m 29s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 10m 54s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 26m 26s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 11m 48s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 26m 55s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 12m 36s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 27m 22s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 12m 42s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 29m 37s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 14m 46s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 30m 10s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 15m 12s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 53m 36s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 16m 04s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 53m 37s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 16m 14s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_appRun_in_github_com_yangchuang123456_learn-go_urfave-cli_app-run - 2019.07.12 at 14h 55m 40s.xml">
-      <configuration name="Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 16m 36s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -357,12 +342,12 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.21804096" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.22357498" />
       <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.2097399" />
       <window_info id="Favorites" order="2" sideWeight="0.5016129" side_tool="true" weight="0.2097399" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44874477" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44874477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +355,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36506277" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36506277" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,7 +369,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn_go_test.go" />
     <entry file="file://$PROJECT_DIR$/../github.com/stretchr/testify/assert/assertions.go" />
     <entry file="file://$PROJECT_DIR$/.travis_old.yml" />
     <entry file="file://$PROJECT_DIR$/learn_go.go">
@@ -422,13 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/log/log.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -501,27 +478,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/core/chain-config/mercury.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/core/chain-config/default_verifier_info.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/core/chain-config/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4959" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/common/format.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/common/consts/consts.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/core/chain-config/mercury.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/core/chain-config/default_verifier_info.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/core/chain-config/config.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/common/format.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/common/consts/consts.go" />
     <entry file="file://$PROJECT_DIR$/tests/travis_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -529,16 +490,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/third-party/crypto/secp256k1/secp256.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/third-party/crypto/secp256k1/curve.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/third-party/crypto/secp256k1/secp256.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/third-party/crypto/secp256k1/curve.go" />
     <entry file="file://$PROJECT_DIR$/../../dipperin/dipperin-core/cmd/dipperin/config/flags.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -546,23 +499,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/cmd/dipperin/config/flags.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" selection-start-line="25" selection-end-line="230" selection-end-column="1" />
-          <folding>
-            <element signature="e#809#942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/cmd/utils/debug/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="31" selection-start-line="31" selection-end-line="69" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/cmd/dipperin/config/flags.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/cmd/utils/debug/api.go" />
     <entry file="file://$PROJECT_DIR$/vendor/github.com/ethereum/go-ethereum/log/root.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -605,9 +543,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/urfave-cli/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urfave-cli/test_cli.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19665">
+          <caret line="1051" selection-start-line="1051" selection-end-line="1051" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13015">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/urfave-cli/flags/flags.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="513">
           <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="e#15#61#0" expanded="true" />
@@ -615,71 +581,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/context.go">
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/app.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="689" selection-start-line="689" selection-end-line="689" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="1051" selection-start-line="1051" selection-end-line="1051" />
+        <state relative-caret-position="3496">
+          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/flag.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="1216">
           <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/app.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/flag/flag.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="17879">
           <caret line="951" column="38" selection-start-line="951" selection-start-column="33" selection-end-line="951" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/urfave-cli/app-run/app_run_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
+        <state relative-caret-position="232">
           <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/log/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="300" column="5" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/path/filepath/path.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="403" column="33" selection-start-line="403" selection-start-column="33" selection-end-line="403" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/os/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filepath/filepath_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <element signature="e#17#126#0" expanded="true" />
+            <element signature="e#18#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urfave-cli/test_cli.sh">
+    <entry file="file:///usr/local/go/src/regexp/regexp.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="158">
+          <caret line="1072" column="18" selection-start-line="1072" selection-start-column="18" selection-end-line="1072" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urfave-cli/main.go">
+    <entry file="file://$PROJECT_DIR$/go-regular/regular_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="304">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
-            <element signature="e#20#129#0" expanded="true" />
+            <element signature="e#20#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
