@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8aa7fa4-926b-4103-9f56-6a662e47ad19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/filepath/filepath_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-regular/regular_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/des_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,97 +17,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urfave-cli/app-run/app_run_test.go">
+        <entry file="file://$PROJECT_DIR$/crypto/des_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="194">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding>
+                <element signature="e#16#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/log/log.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="299" column="5" selection-start-line="299" selection-start-column="5" selection-end-line="299" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/crypto/des/cipher.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/go-regular/regular_test.go">
+        <entry file="file://C:/Go/src/crypto/cipher/cbc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-              <folding>
-                <element signature="e#20#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1078">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/regexp/regexp.go">
+        <entry file="file://C:/Go/src/crypto/cipher/ctr.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/crypto/cipher/ofb.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="1072" column="18" selection-start-line="1072" selection-start-column="18" selection-end-line="1072" selection-end-column="18" />
-            </state>
+            <state relative-caret-position="-330" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filepath/filepath_test.go">
+        <entry file="file://C:/Go/src/crypto/des/des_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <element signature="e#18#80#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-1650" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/os/types.go">
+        <entry file="file://C:/Go/src/crypto/des/example_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
+            <state relative-caret-position="-198" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/path/filepath/path.go">
+        <entry file="file://C:/Go/src/crypto/cipher/cfb.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="403" column="33" selection-start-line="403" selection-start-column="33" selection-end-line="403" selection-end-column="33" />
-            </state>
+            <state relative-caret-position="-198" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/log/log.go">
+        <entry file="file://C:/Go/src/crypto/cipher/cipher.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="300" column="5" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/flag.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/flag/flag.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17879">
-              <caret line="951" column="38" selection-start-line="951" selection-start-column="33" selection-end-line="951" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/context.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3078">
-              <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
+            <state relative-caret-position="-60">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -133,7 +117,7 @@
       <find>args</find>
     </findStrings>
   </component>
-  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -157,10 +141,11 @@
         <option value="$PROJECT_DIR$/urfave-cli/main.go" />
         <option value="$PROJECT_DIR$/filepath/filepath_test.go" />
         <option value="$PROJECT_DIR$/go-regular/regular_test.go" />
+        <option value="$PROJECT_DIR$/crypto/des_test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="238" />
     <option name="y" value="64" />
     <option name="width" value="1746" />
@@ -172,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,12 +168,7 @@
             <path>
               <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-go" type="462c0819:PsiDirectoryNode" />
-              <item name="filepath" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-go" type="462c0819:PsiDirectoryNode" />
-              <item name="go-regular" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
@@ -198,11 +179,44 @@
               <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.4" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.4" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.4" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.4" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="cipher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.4" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="des" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_Regular in github.com/yangchuang123456/learn-go/go-regular">
+  <component name="RunManager" selected="Go Test.Test_Des in github.com/yangchuang123456/learn-go/crypto">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -243,15 +257,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_PProf in github.com/yangchuang123456/learn-go/pprof" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/pprof" />
+      <working_directory value="$PROJECT_DIR$/crypto" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/yangchuang123456/learn-go/pprof" />
+      <package value="github.com/yangchuang123456/learn-go/crypto" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_PProf$" />
+      <pattern value="^Test_Des$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -289,44 +303,44 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_Des in github.com/yangchuang123456/learn-go/crypto" />
         <item itemvalue="Go Test.Test_Regular in github.com/yangchuang123456/learn-go/go-regular" />
         <item itemvalue="Go Test.Test_filePathWalk in github.com/yangchuang123456/learn-go/filepath" />
         <item itemvalue="Go Test.Test_appRun in github.com/yangchuang123456/learn-go/urfave-cli/app-run" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.Test_PProf in github.com/yangchuang123456/learn-go/pprof" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 09m 46s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 10m 54s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 11m 48s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 12m 36s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 12m 42s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 14m 46s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 15m 12s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 16m 04s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 16m 14s.xml">
-      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.07.25 at 18h 16m 36s.xml">
       <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Regular_in_github_com_yangchuang123456_learn-go_go-regular - 2019.08.19 at 22h 23m 00s.xml">
+      <configuration name="Test_Regular in github.com/yangchuang123456/learn-go/go-regular" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Des_in_github_com_yangchuang123456_learn-go_crypto - 2019.08.19 at 22h 36m 07s.xml">
+      <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Des_in_github_com_yangchuang123456_learn-go_crypto - 2019.08.19 at 22h 36m 55s.xml">
+      <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Des_in_github_com_yangchuang123456_learn-go_crypto - 2019.08.19 at 22h 37m 36s.xml">
+      <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Des_in_github_com_yangchuang123456_learn-go_crypto - 2019.08.19 at 22h 37m 46s.xml">
+      <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Des_in_github_com_yangchuang123456_learn-go_crypto - 2019.08.19 at 22h 42m 57s.xml">
+      <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Des_in_github_com_yangchuang123456_learn-go_crypto - 2019.08.19 at 22h 47m 07s.xml">
+      <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Des_in_github_com_yangchuang123456_learn-go_crypto - 2019.08.19 at 22h 47m 20s.xml">
+      <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_Des_in_github_com_yangchuang123456_learn-go_crypto - 2019.08.19 at 22h 47m 39s.xml">
+      <configuration name="Test_Des in github.com/yangchuang123456/learn-go/crypto" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -339,15 +353,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.22357498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.2260128" />
       <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.2097399" />
       <window_info id="Favorites" order="2" sideWeight="0.5016129" side_tool="true" weight="0.2097399" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44874477" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4967462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,7 +369,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36506277" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36442515" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -369,108 +383,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../github.com/stretchr/testify/assert/assertions.go" />
-    <entry file="file://$PROJECT_DIR$/.travis_old.yml" />
-    <entry file="file://$PROJECT_DIR$/learn_go.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis_backup.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rcrowley/go-metrics/gauge.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rcrowley/go-metrics/log.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/pprof/pprof.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9652">
-          <caret line="520" column="5" selection-start-line="520" selection-start-column="5" selection-end-line="520" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrics/metrics_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#17#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pprof/pprof_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pprof/cpuProfile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/go/src/os/file.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5016">
-          <caret line="272" column="5" selection-start-line="272" selection-start-column="5" selection-end-line="272" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rcrowley/go-metrics/sample.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rcrowley/go-metrics/histogram.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rcrowley/go-metrics/counter.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/rcrowley/go-metrics/registry.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/github.com/rcrowley/go-metrics/meter.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -515,13 +427,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/os/proc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/go/src/os/proc.go" />
     <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/help.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -529,13 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/strconv/atoi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/go/src/strconv/atoi.go" />
     <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/flag_generated.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -557,20 +457,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19665">
-          <caret line="1051" selection-start-line="1051" selection-end-line="1051" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13015">
-          <caret line="689" selection-start-line="689" selection-end-line="689" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go" />
+    <entry file="file:///usr/local/go/src/runtime/panic.go" />
     <entry file="file://$PROJECT_DIR$/urfave-cli/flags/flags.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -588,58 +476,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/flag.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/flag/flag.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17879">
-          <caret line="951" column="38" selection-start-line="951" selection-start-column="33" selection-end-line="951" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3078">
-          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/go/src/flag/flag.go" />
+    <entry file="file:///usr/local/go/src/log/log.go" />
+    <entry file="file:///usr/local/go/src/path/filepath/path.go" />
+    <entry file="file:///usr/local/go/src/os/types.go" />
+    <entry file="file:///usr/local/go/src/regexp/regexp.go" />
     <entry file="file://$PROJECT_DIR$/urfave-cli/app-run/app_run_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="770">
           <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/log/log.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="300" column="5" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/path/filepath/path.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="403" column="33" selection-start-line="403" selection-start-column="33" selection-end-line="403" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/os/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filepath/filepath_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="308">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#18#80#0" expanded="true" />
@@ -647,20 +498,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/regexp/regexp.go">
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/flag.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="1072" column="18" selection-start-line="1072" selection-start-column="18" selection-end-line="1072" selection-end-column="18" />
+        <state relative-caret-position="1408">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_go.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go-regular/regular_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/aes/cipher.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/internal/subtle/aliasing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/encoding/binary/binary.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/des/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/log/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="299" column="5" selection-start-line="299" selection-start-column="5" selection-end-line="299" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/des/cipher.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/des_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
-            <element signature="e#20#51#0" expanded="true" />
+            <element signature="e#16#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/cipher/cipher.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/cipher/ctr.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Go/src/crypto/cipher/ofb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/des/des_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/des/example_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/cipher/cfb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/cipher/cbc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1078">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
         </state>
       </provider>
     </entry>
