@@ -1,7 +1,15 @@
+# github.com/btcsuite/btcd v0.0.0-20190629003639-c26ffa870fd8
+github.com/btcsuite/btcd/btcec
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
 # github.com/ethereum/go-ethereum v1.9.0
 github.com/ethereum/go-ethereum/log
+github.com/ethereum/go-ethereum/crypto
+github.com/ethereum/go-ethereum/common
+github.com/ethereum/go-ethereum/common/math
+github.com/ethereum/go-ethereum/crypto/secp256k1
+github.com/ethereum/go-ethereum/rlp
+github.com/ethereum/go-ethereum/common/hexutil
 # github.com/go-stack/stack v1.8.0
 github.com/go-stack/stack
 # github.com/pmezard/go-difflib v1.0.0
@@ -12,3 +20,7 @@ github.com/rcrowley/go-metrics
 github.com/stretchr/testify/assert
 # github.com/urfave/cli v1.20.0
 github.com/urfave/cli
+# github.com/willf/bitset v1.1.10
+github.com/willf/bitset
+# golang.org/x/crypto v0.0.0-20170930174604-9419663f5a44
+golang.org/x/crypto/sha3

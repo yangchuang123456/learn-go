@@ -191,18 +191,13 @@ func (a *App) Run(arguments []string) (err error) {
 
 	set.SetOutput(ioutil.Discard)
 	err = set.Parse(arguments[1:])
-	fmt.Printf("the set pprofPort is0:%v\r\n",set.Lookup("pprofport").Value)
-	fmt.Printf("the set is_upload_node_data is0:%v\r\n",set.Lookup("is_upload_node_data").Value)
 	nerr := normalizeFlags(a.Flags, set)
-	fmt.Printf("the set pprofPort is1:%v\r\n",set.Lookup("pprofport").Value)
 	context := NewContext(a, set, nil)
 	if nerr != nil {
 		fmt.Fprintln(a.Writer, nerr)
 		ShowAppHelp(context)
 		return nerr
 	}
-	
-	fmt.Printf("\r\nthe context pprofport is2:%v\r\n",context.Int("pprofport"))
 	context.shellComplete = shellComplete
 
 	if checkCompletions(context) {
@@ -253,9 +248,6 @@ func (a *App) Run(arguments []string) (err error) {
 	}
 
 	args := context.Args()
-	fmt.Printf("\r\nthe context args is:%v\r\n",args)
-	fmt.Printf("\r\nthe context pprofport is3:%v\r\n",context.Int("pprofport"))
-	fmt.Printf("the set is_upload_node_data is2:%v\r\n",set.Lookup("is_upload_node_data").Value)
 	if args.Present() {
 		name := args.First()
 		c := a.Command(name)

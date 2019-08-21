@@ -1,6 +1,7 @@
 package pprof
 
 import (
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"runtime/pprof"
@@ -8,13 +9,33 @@ import (
 )
 
 func Test_PProf(t *testing.T){
-	f, err := os.Create("cpuProfile.txt")
+	cpuFile, err := os.Create("Profile.cpu")
 	assert.NoError(t,err)
-	pprof.StartCPUProfile(f)
-	defer pprof.StopCPUProfile()
+	defer cpuFile.Close()
 
-	f, err = os.Create("memProfile")
+	memFile, err := os.Create("Profile.mem")
 	assert.NoError(t,err)
-	pprof.WriteHeapProfile(f)
-	f.Close()
+	defer memFile.Close()
+
+	pprof.StartCPUProfile(cpuFile)
+	pprof.WriteHeapProfile(memFile)
+
+	//check profile code
+	i :=100000
+	for{
+		i--
+
+		func(){
+			crypto.Keccak256([]byte("hello world"))
+		}()
+
+		if i==0{
+			break
+		}
+	}
+
+	pprof.StopCPUProfile()
+
+	os.Remove("Profile.cpu")
+	os.Remove("Profile.mem")
 }
