@@ -2,6 +2,7 @@ package go_grammar
 
 import (
 	"fmt"
+	"log"
 	"testing"
 )
 
@@ -49,4 +50,11 @@ func Test_sliceCap(t *testing.T){
 	fmt.Println("len(d)=", len(d), ", cap(d)=", cap(d))
 	fmt.Println("len(e)=", len(e), ", cap(e)=", cap(e))
 	fmt.Println("len(f)=", len(f), ", cap(f)=", cap(f))
+}
+
+
+func Test_slice(t *testing.T){
+	a := []byte{1,2,3,4,5}
+
+	log.Println("the a[1:5] is:",a[1:4])
 }
