@@ -2,8 +2,9 @@ package bit_set
 
 import (
 	"encoding/binary"
+	"github.com/dipperin/dipperin-core/common/hexutil"
 	"github.com/stretchr/testify/assert"
-	"github.com/vntchain/go-vnt/common/hexutil"
+
 	"github.com/willf/bitset"
 	"log"
 	"testing"

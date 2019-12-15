@@ -58,3 +58,24 @@ func Test_slice(t *testing.T){
 
 	log.Println("the a[1:5] is:",a[1:4])
 }
+
+
+func changeSlice1(a []int){
+	a[0] =2
+}
+
+func changeSlice2(a []int){
+	fmt.Printf("the a addr is11:%p\r\n",&a)
+	log.Println("the a len and cap is11:",len(a),cap(a))
+	a = append(a,2)
+	fmt.Printf("the a addr is22:%p\r\n",&a)
+	log.Println("the a len and cap is22:",len(a),cap(a))
+}
+
+func Test_SliceFuncParameter(t *testing.T){
+	a := []int{1,1,1}
+	changeSlice1(a)
+	log.Println("the a is:",a)
+	changeSlice2(a)
+	log.Println("the a is:",a)
+}
