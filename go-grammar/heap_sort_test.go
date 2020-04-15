@@ -43,4 +43,9 @@ func Test_Heap(t *testing.T) {
 	}
 }
 
+func Test_Heap2(t *testing.T){
+	//testSlice := []int{2,1,0,4,3}
+	//heap.Init(&testSlice)
+}
+
 

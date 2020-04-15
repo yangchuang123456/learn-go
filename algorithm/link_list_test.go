@@ -143,7 +143,7 @@ func getTestList() []*ListNode {
 	tmpList1 := list1
 	for i := 0; i < list1Len; i++ {
 		tmpList1.Val = i * 2
-		log.Println("the list1 node data is:", tmpList1.Val)
+		log.Println("the list1 nodes data is:", tmpList1.Val)
 		if i != list1Len-1 {
 			tmpList1.Next = &ListNode{}
 			tmpList1 = tmpList1.Next
@@ -153,7 +153,7 @@ func getTestList() []*ListNode {
 	tmpList2 := list2
 	for i := 0; i < list2Len; i++ {
 		tmpList2.Val = i*2 + 1
-		log.Println("the list2 node data is:", tmpList2.Val)
+		log.Println("the list2 nodes data is:", tmpList2.Val)
 		if i != list2Len-1 {
 			tmpList2.Next = &ListNode{}
 			tmpList2 = tmpList2.Next
@@ -163,7 +163,7 @@ func getTestList() []*ListNode {
 	tmpList3 := list3
 	for i := 0; i < list3Len; i++ {
 		tmpList3.Val = i * 3
-		log.Println("the list3 node data is:", tmpList3.Val)
+		log.Println("the list3 nodes data is:", tmpList3.Val)
 		if i != list3Len-1 {
 			tmpList3.Next = &ListNode{}
 			tmpList3 = tmpList3.Next
@@ -178,6 +178,6 @@ func Test_mergeKLists(t *testing.T) {
 	res := mergeKLists1(testListNode)
 
 	for ; res != nil; res = res.Next {
-		log.Println("the list node data is:", res.Val)
+		log.Println("the list nodes data is:", res.Val)
 	}
 }

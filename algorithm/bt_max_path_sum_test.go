@@ -2,15 +2,15 @@ package algorithm
 
 import (
 	"github.com/stretchr/testify/assert"
+	"github.com/yangchuang123456/learn-go/algorithm/common"
 	"log"
-	"sync"
 	"testing"
 )
 
 /*
 Given a non-empty binary tree, find the maximum path sum.
 
-For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+For this problem, a path is defined as any sequence of nodes from some starting nodes to any nodes in the tree along the parent-child connections. The path must contain at least one nodes and does not need to go through the root.
 
 Example 1:
 
@@ -35,13 +35,9 @@ Output: 42
 
 */
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
 
-func MaxLeftRightPathMaxSum(root *TreeNode) (leftMax ,rightMax int){
+
+func MaxLeftRightPathMaxSum(root *common.TreeNode) (leftMax ,rightMax int){
 	if root == nil{
 		return 0,0
 	}
@@ -78,7 +74,7 @@ func MaxLeftRightPathMaxSum(root *TreeNode) (leftMax ,rightMax int){
 }
 
 
-func maxPathSumFunc(root *TreeNode) (int,bool) {
+func maxPathSumFunc(root *common.TreeNode) (int,bool) {
 	if root == nil{
 		return  0,true
 	}
@@ -119,107 +115,57 @@ func maxPathSumFunc(root *TreeNode) (int,bool) {
 	return tmp,false
 }
 
-func maxPathSum(root *TreeNode) int{
+//方法一: 分别计算过根节点的最大路径和左右子树的最大路径，然后在三个值中取最大值即可。计算根节点的最大路径和计算左右子树的最大路径都可以递归求得
+func maxPathSum1(root *common.TreeNode) int{
 	ret,_:=maxPathSumFunc(root)
 	return ret
 }
 
-func creatCompleteTree(nodeNumber,index int) *TreeNode{
-	var tree TreeNode
-	if index < nodeNumber{
-		tree.Left = creatCompleteTree(nodeNumber,2*index+1)
-		tree.Right = creatCompleteTree(nodeNumber,2*index+2)
-	}else{
-		return nil
+//方法二: 递归计算树的顶点到叶子节点的最大路径和，在递归调用过程中一直计算sum=根节点+左子树顶点到叶子的最大路径+右子树顶点到叶子的最大路径.递归完成后最大sum即为最大路径和
+func subFunc(root *common.TreeNode,maxSum *int) int{
+	if root == nil{
+		return 0
 	}
-	return &tree
-}
+	left := subFunc(root.Left,maxSum)
+	right := subFunc(root.Right,maxSum)
 
-
-type queue struct {
-	data []interface{}
-	mux sync.RWMutex
-}
-
-func NewQueue() *queue{
-	return &queue{
-		data:make([]interface{},0),
+	tmp := root.Val
+	if left > 0{
+		tmp += left
 	}
-}
-
-func (q *queue) Enqueue(data interface{}) {
-	q.mux.Lock()
-	defer q.mux.Unlock()
-	q.data = append(q.data,data)
-}
-
-func (q *queue) Dequeue() interface{}{
-	q.mux.Lock()
-	defer q.mux.Unlock()
-	ret := q.data[0]
-	q.data = q.data[1:]
-	return ret
-}
-
-func (q *queue) Front() interface{}{
-	q.mux.RLock()
-	defer q.mux.RUnlock()
-	return q.data[0]
-}
-
-func (q *queue) Size() int{
-	return len(q.data)
-}
-
-func (q *queue) IsEmpty() bool{
-	if len(q.data) == 0{
-		return true
-	}else{
-		return false
+	if right >0{
+		tmp += right
 	}
-}
+	if tmp > *maxSum{
+		*maxSum = tmp
+	}
 
-func getTestTree(slice []*int) *TreeNode{
-	//先构造完全二叉树
-	tree := creatCompleteTree(len(slice),0)
-
-	q := NewQueue()
-	q.Enqueue(tree)
-	//层次遍历填入数据,并删除空节点
-	i := 0
-	for !q.IsEmpty(){
-		tmpNode := q.Dequeue()
-		if tmpNode != nil{
-			node := tmpNode.(*TreeNode)
-			node.Val = *slice[i]
-
-			//处理左子树
-			if 2*i+1 < len(slice){
-				if slice[2*i+1] == nil{
-					node.Left = nil
-					q.Enqueue(nil)
-				}else{
-					q.Enqueue(node.Left)
-				}
-			}
-
-			//处理右子树
-			if 2*i+2 < len(slice){
-				if slice[2*i+2] == nil{
-					node.Right = nil
-					q.Enqueue(nil)
-				}else{
-					q.Enqueue(node.Right)
-				}
-			}
+	if left < right{
+		if right>0{
+			return root.Val+right
 		}
-		i++
+
+	}else{
+		if left >0{
+			return  root.Val+left
+		}
 	}
 
-	return tree
+	return root.Val
 }
 
-func inOrderTraverseTree(tree *TreeNode,slice *[]int){
+func maxPathSum2(root *common.TreeNode) int{
+	if root == nil{
+		return 0
+	}
+	res := root.Val
+	subFunc(root,&res)
+	return res
+}
+
+
+
+func inOrderTraverseTree(tree *common.TreeNode,slice *[]int){
 	if tree !=nil{
 		inOrderTraverseTree(tree.Left,slice)
 		*slice = append(*slice,tree.Val)
@@ -232,7 +178,7 @@ func Test_generateTree(t *testing.T){
 	slice := []*int{
 		&a,&b,&c,nil,nil,&d,&e,
 	}
-	tree := getTestTree(slice)
+	tree := common.GetTestTree(slice)
 	tmpSlice := make([]int,0)
 	inOrderTraverseTree(tree,&tmpSlice)
 	assert.Equal(t,[]int{9,-10,15,20,7},tmpSlice)
@@ -240,7 +186,7 @@ func Test_generateTree(t *testing.T){
 
 	a,b,c = 1,2,3
 	slice = []*int{&a,&b,&c}
-	tree = getTestTree(slice)
+	tree = common.GetTestTree(slice)
 	tmpSlice = make([]int,0)
 	inOrderTraverseTree(tree,&tmpSlice)
 	assert.Equal(t,[]int{2,1,3},tmpSlice)
@@ -250,39 +196,39 @@ func Test_generateTree(t *testing.T){
 func Test_maxPathSum(t *testing.T){
 	a,b,c := 1,2,3
 	slice := []*int{&a,&b,&c}
-	tree := getTestTree(slice)
-	maxSum:= maxPathSum(tree)
+	tree := common.GetTestTree(slice)
+	maxSum:= maxPathSum2(tree)
 	assert.Equal(t,a+b+c,maxSum)
 
 	a,b,c,d,e := -10,9,20,15,7
 	slice = []*int{
 		&a,&b,&c,nil,nil,&d,&e,
 	}
-	tree = getTestTree(slice)
-	maxSum= maxPathSum(tree)
+	tree = common.GetTestTree(slice)
+	maxSum= maxPathSum2(tree)
 	assert.Equal(t,42,maxSum)
 
 	a,b = 1,2
 	slice = []*int{
 		&a,&b,
 	}
-	tree = getTestTree(slice)
-	maxSum = maxPathSum(tree)
+	tree = common.GetTestTree(slice)
+	maxSum = maxPathSum2(tree)
 	assert.Equal(t,3,maxSum)
 
 	a,b = 2,-1
 	slice = []*int{
 		&a,&b,
 	}
-	tree = getTestTree(slice)
-	maxSum = maxPathSum(tree)
+	tree = common.GetTestTree(slice)
+	maxSum = maxPathSum2(tree)
 	assert.Equal(t,2,maxSum)
 
 	a,b = -2,1
 	slice = []*int{
 		&a,&b,
 	}
-	tree = getTestTree(slice)
-	maxSum = maxPathSum(tree)
+	tree = common.GetTestTree(slice)
+	maxSum = maxPathSum2(tree)
 	assert.Equal(t,1,maxSum)
 }
