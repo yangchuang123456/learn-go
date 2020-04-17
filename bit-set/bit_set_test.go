@@ -2,7 +2,6 @@ package bit_set
 
 import (
 	"encoding/binary"
-	"github.com/dipperin/dipperin-core/common/hexutil"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/willf/bitset"
@@ -20,7 +19,6 @@ func Test_bitSet(t *testing.T) {
 
 	buff := make([]byte,8)
 	binary.BigEndian.PutUint64(buff,b.Bytes()[0])
-	log.Printf("the b byte is:%v",hexutil.Encode(buff))
 
 	setIndex,result := b.NextSet(0)
 	log.Printf("the setIndex is:%v",setIndex)

@@ -1,11 +1,11 @@
 package pprof
 
 import (
-	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"runtime/pprof"
 	"testing"
+	"time"
 )
 
 func Test_PProf(t *testing.T){
@@ -26,7 +26,7 @@ func Test_PProf(t *testing.T){
 		i--
 
 		func(){
-			crypto.Keccak256([]byte("hello world"))
+			time.Sleep(100*time.Second)
 		}()
 
 		if i==0{

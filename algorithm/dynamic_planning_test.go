@@ -42,15 +42,40 @@ func maxPresent( presentVec []int ) int {
 
 //动态规划
 func maxPresent_dynamic_planning( presentVec []int ) int {
+	number := len(presentVec)
+	midValue := make([]int, number)
+	copy(midValue,presentVec)
+	for {
+		midValueLen := len(midValue)
+		if midValueLen ==1{
+			break
+		}
 
+		i:=0
+		for i=0;i<midValueLen/2;i++{
+			tmpValue:=0
+			if midValue[i*2]<midValue[i*2+1]{
+				tmpValue = midValue[i*2+1] - midValue[i*2]
+			} else{
+				tmpValue = midValue[i*2] - midValue[i*2+1]
+			}
+			midValue[i] = tmpValue
+		}
+
+		if midValueLen%2 ==1{
+			midValue[i]=midValue[midValueLen-1]
+		}
+		midValue = midValue[:i+1]
+	}
+	return midValue[0]
 }
 
 func Test_maxPresent(t *testing.T){
 	presentVec := []int{1,2,3,4}
-	ret := maxPresent(presentVec)
+	ret := maxPresent_dynamic_planning(presentVec)
 	assert.Equal(t,0,ret)
 
 	presentVec = []int{1,3,5}
-	ret = maxPresent(presentVec)
+	ret = maxPresent_dynamic_planning(presentVec)
 	assert.Equal(t,1,ret)
 }
