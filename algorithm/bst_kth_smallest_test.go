@@ -2,7 +2,7 @@ package algorithm
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/yangchuang123456/learn-go/algorithm/common"
+	"learn-go/algorithm/common"
 	"testing"
 )
 

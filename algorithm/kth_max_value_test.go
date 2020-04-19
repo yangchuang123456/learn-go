@@ -3,7 +3,7 @@ package algorithm
 import (
 	"container/heap"
 	"github.com/stretchr/testify/assert"
-	"github.com/yangchuang123456/learn-go/algorithm/common"
+	"learn-go/algorithm/common"
 	"sort"
 	"testing"
 )

@@ -3,7 +3,7 @@ package app_run
 import (
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli"
-	"github.com/yangchuang123456/learn-go/urfave-cli/flags"
+	"learn-go/urfave-cli/flags"
 	"log"
 	"testing"
 )

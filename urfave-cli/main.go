@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/urfave/cli"
-	"github.com/yangchuang123456/learn-go/urfave-cli/flags"
+	"learn-go/urfave-cli/flags"
 	"log"
 	"os"
 )
