@@ -2,7 +2,6 @@ package algorithm
 
 import (
 	"github.com/stretchr/testify/assert"
-	"log"
 	"testing"
 )
 
@@ -21,71 +20,56 @@ p.s 礼物都很珍贵，所以不可以拆开算哦
 他俩一个人拿1,4 。另一个人拿2,3
 */
 
-//递归写法
-func abs(a int) int{
-	return (a+(a>>31))^(a>>31)
-}
-
-func subPresent(presentVec []int, target int) int{
-	log.Println("the presentVec is:",presentVec)
-	log.Println("the target is:",target)
-
-	len := len(presentVec)
-	if len == 2{
-		subValue,sumValue := 0,0
-		sumValue = presentVec[0]+presentVec[1]
-		subValue = abs(presentVec[0]-presentVec[1])
-
-		if abs(sumValue-target)<=abs(subValue-target){
-			return abs(sumValue-target)
-		}else{
-			return abs(subValue-target)
-		}
-	}
-
-	subTarget := abs(presentVec[len-1]-target)
-	return subPresent(presentVec[:len-1],subTarget)
-}
-
-func maxPresent( presentVec []int ) int {
-	if len(presentVec) ==0{
-		return 0
-	}else if len(presentVec) ==1{
-		return presentVec[0]
-	}
-
-	return subPresent(presentVec,0)
+func abs(a int) int {
+	return (a + (a >> 31)) ^ (a >> 31)
 }
 
 //动态规划
-func maxPresent_dynamic_planning( presentVec []int ) int {
-	return 0
+//此题为变形版动态规划,以总礼物质量的一半为背包容量,计算背包问题的结果分配给一个人,剩余结果分配给另一个人
+func maxPresent_dynamic_planning(presentVec []int) int {
+
+	totalPrice := 0
+	for _, v := range presentVec {
+		totalPrice += v
+	}
+
+	c := totalPrice / 2
+	number := len(presentVec)
+	quality := make([]int,number)
+	copy(quality,presentVec)
+	dp := make([]int,c+1)
+
+	for i:=1;i<=number;i++{
+		for j:=c;j>=1;j--{
+			if j< quality[i-1]{
+				continue
+			}
+
+			if dp[j] < dp[j-quality[i-1]]+presentVec[i-1]{
+				dp[j] = dp[j-quality[i-1]]+presentVec[i-1]
+			}
+		}
+	}
+
+	res := dp[c]
+
+	return abs(totalPrice-2*res)
 }
 
-func Test_maxPresent(t *testing.T){
-	presentVec := []int{1,2,3,4}
-	ret := maxPresent(presentVec)
-	assert.Equal(t,0,ret)
-
-	presentVec = []int{1,3,5}
-	ret = maxPresent(presentVec)
-	assert.Equal(t,1,ret)
-
-	presentVec = []int{1,2,3,6}
-	ret = maxPresent(presentVec)
-	assert.Equal(t,0,ret)
-
-	presentVec = []int{41,467,334,1,169,224,478,358}
-	ret = maxPresent(presentVec)
-	assert.Equal(t,0,ret)
-}
-
-func Test_maxPresentDynamicPlanning(t *testing.T){
-	presentVec := []int{1,2,3,4}
+func Test_maxPresentDynamicPlanning(t *testing.T) {
+	presentVec := []int{1, 2, 3, 4}
 	ret := maxPresent_dynamic_planning(presentVec)
-	assert.Equal(t,0,ret)
+	assert.Equal(t, 0, ret)
 
-	presentVec = []int{1,3,5}
+	presentVec = []int{1, 3, 5}
 	ret = maxPresent_dynamic_planning(presentVec)
-	assert.Equal(t,1,ret)
+	assert.Equal(t, 1, ret)
+
+	presentVec = []int{1, 2, 3, 6}
+	ret = maxPresent_dynamic_planning(presentVec)
+	assert.Equal(t, 0, ret)
+
+	presentVec = []int{41, 467, 334, 1, 169, 224, 478, 358}
+	ret = maxPresent_dynamic_planning(presentVec)
+	assert.Equal(t, 0, ret)
 }
