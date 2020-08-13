@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/urfave/cli"
 	"learn-go/urfave-cli/flags"
 	"log"
@@ -54,3 +53,12 @@ func main(){
 		os.Exit(1)
 	}
 }
+
+/*func main(){
+	app := cli.NewApp()
+	app.Action = func(c *cli.Context) error {
+		log.Println("the parse parameter is:",c.Args().Get(0))
+		return nil
+	}
+	app.Run(os.Args)
+}*/

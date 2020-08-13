@@ -2,36 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8aa7fa4-926b-4103-9f56-6a662e47ad19" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/algorithm/bst_kth_smallest_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/common/queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/common/replace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/common/sorHeap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/common/stack.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/common/treeNode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/kth_max_value_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lru_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/niuke_str_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/sort_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/computer-common/float_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-grammar/list_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etcd/etcd_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fsnotify/fsnotify_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-grammar/append_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-grammar/channel_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-grammar/for_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/json_parse_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-design/filecoin-fsm/filecoin_fsm_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/bt_max_path_sum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/bt_max_path_sum_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/bt_traverse_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/bt_traverse_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/link_list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/link_list_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-grammar/heap_sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-grammar/heap_sort_test.go" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/algorithm/dynamic_planning_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
+      <change beforePath="$PROJECT_DIR$/file-operation/testFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-grammar/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-grammar/map_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-grammar/select_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-grammar/select_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-grammar/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-grammar/slice_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urfave-cli/app-run/app_run_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/urfave-cli/app-run/app_run_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urfave-cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/urfave-cli/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="learn-go" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,64 +31,11 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>arguments</find>
-      <find>flag</find>
-      <find>m</find>
-      <find>is_upload_node_data</find>
-      <find>pprof</find>
-      <find>formal</find>
-      <find>args</find>
-      <find>bufLen</find>
-      <find>0x00001A95C8c94dFb6afd76c6898Cd</find>
-      <find>github.com/vntchain/go-vnt/common/hexutil</find>
-      <find>github.com/vntchain/go-vnt/common</find>
-      <find>GenerateVDF took</find>
-      <find>GenerateVDF</find>
-      <find>res</find>
-      <find>deleteNode</find>
-      <find>[</find>
-      <find>[[10],[10,13],[3,17],[6,11],[10,5],[9,10],[13],[2,19],[2],[3],[5,25],[8],[9,22],[5,5],[1,30],[11],[9,12],[7],[5],[8],[9],[4,30],[9,3],[9],[10],[10],[6,14],[3,1],[3],[10,11],[8],[2,14],[1],[5],[4],[11,4],[12,24],[5,18],[13],[7,23],[8],[12],[3,27],[2,12],[5],[2,9],[13,4],[8,18],[1,7],[6],[9,29],[8,21],[5],[6,30],[1,12],[10],[4,15],[7,22],[11,26],[8,17],[9,29],[5],[3,4],[11,30],[12],[4,29],[3],[9],[6],[3,4],[1],[10],[3,29],[10,28],[1,20],[11,13],[3],[3,12],[3,8],[10,9],[3,26],[8],[7],[5],[13,17],[2,27],[11,15],[12],[9,19],[2,15],[3,16],[1],[12,17],[9,1],[6,19],[4],[5],[5],[8,1],[11,7],[5,2],[9,28],[1],[2,2],[7,4],[4,22],[7,24],[9,26],[13,28],[11,26]]</find>
-      <find>]</find>
-      <find>null</find>
-      <find>ListNode</find>
-      <find>sortHeap</find>
-      <find>TreeN</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>{</replace>
-      <replace>}</replace>
-      <replace>nil</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/vendor/github.com/harmony-one</dir>
-      <dir>$PROJECT_DIR$/algorithm</dir>
-    </dirStrings>
-  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="92" />
-    <option name="y" value="276" />
-    <option name="width" value="1853" />
-    <option name="height" value="915" />
-  </component>
-  <component name="ProjectId" id="1aFmKQcSRi2GZR3YbuO4LYLTyVQ" />
-=======
-  <component name="GOROOT" path="C:\Go" />
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1aXDUaRyhEKNTJCFLjipJSThpVn" />
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
+  <component name="ProjectId" id="1eWp2R45UJcfxMUZETUr23gD0ww" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -111,240 +49,134 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="go.vgo" />
-=======
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/algorithm" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vendor/github.com/dipperin/dipperin-core/third-party/crypto" />
+      <recent name="$PROJECT_DIR$/etcd" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Go Test.Test_decodeStr in github.com/yangchuang123456/learn-go/algorithm">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/" />
-      <package value="github.com/yangchuang123456/learn-go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_Heap in github.com/yangchuang123456/learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_etcd in learn-go/etcd">
+    <configuration name="Test_SliceCapacity in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$/go-grammar" />
       <framework value="gotest" />
-=======
-  <component name="RunManager" selected="Go Test.Test_maxPresent in learn-go/algorithm">
-    <configuration name="go build github.com/yangchuang123456/learn-go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/learn_go.go" />
-      <package value="github.com/yangchuang123456/learn-go" />
+      <package value="learn-go/go-grammar" />
       <directory value="$PROJECT_DIR$/" />
-<<<<<<< HEAD
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_Heap$" />
+      <pattern value="^Test_SliceCapacity$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_decodeStr in github.com/yangchuang123456/learn-go/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_append in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/algorithm" />
-      <framework value="gotest" />
-=======
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/yangchuang123456/learn-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/learn_go.go" />
-      <package value="github.com/yangchuang123456/learn-go" />
-      <directory value="$PROJECT_DIR$/" />
-<<<<<<< HEAD
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_decodeStr$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_decodeStr in learn-go/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-=======
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_generateTree in github.com/yangchuang123456/learn-go/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
-      <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/algorithm" />
+      <working_directory value="$PROJECT_DIR$/go-grammar" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learn-go/algorithm" />
+      <package value="learn-go/go-grammar" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-<<<<<<< HEAD
-      <pattern value="^Test_decodeStr$" />
-=======
-      <pattern value="^Test_generateTree$" />
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
+      <pattern value="^Test_append$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_findKthLargest in github.com/yangchuang123456/learn-go/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_channel in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/algorithm" />
+      <working_directory value="$PROJECT_DIR$/go-grammar" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/yangchuang123456/learn-go/algorithm" />
+      <package value="learn-go/go-grammar" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_findKthLargest$" />
+      <pattern value="^Test_channel$" />
       <method v="2" />
     </configuration>
-<<<<<<< HEAD
-    <configuration name="Test_kthSmallest in github.com/yangchuang123456/learn-go/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="Test_maxPresent in learn-go/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
+    <configuration name="Test_etcd in learn-go/etcd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/algorithm" />
+      <working_directory value="$PROJECT_DIR$/etcd" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learn-go/algorithm" />
+      <package value="learn-go/etcd" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-<<<<<<< HEAD
-      <pattern value="^Test_kthSmallest$" />
+      <pattern value="^Test_etcd$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+    <configuration name="Test_for in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
+      <working_directory value="$PROJECT_DIR$/go-grammar" />
       <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="github.com/yangchuang123456/learn-go" />
+      <kind value="PACKAGE" />
+      <package value="learn-go/go-grammar" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-=======
-      <pattern value="^Test_maxPresent$" />
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
+      <pattern value="^Test_for$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="Go Test.Test_decodeStr in github.com/yangchuang123456/learn-go/algorithm" />
-        <item itemvalue="Go Test.Test_decodeStr in learn-go/algorithm" />
-        <item itemvalue="Go Test.Test_kthSmallest in github.com/yangchuang123456/learn-go/algorithm" />
-        <item itemvalue="Go Test.Test_findKthLargest in github.com/yangchuang123456/learn-go/algorithm" />
-        <item itemvalue="Go Test.Test_Heap in github.com/yangchuang123456/learn-go/go-grammar" />
+        <item itemvalue="Go Test.Test_etcd in learn-go/etcd" />
+        <item itemvalue="Go Test.Test_append in learn-go/go-grammar" />
+        <item itemvalue="Go Test.Test_for in learn-go/go-grammar" />
+        <item itemvalue="Go Test.Test_channel in learn-go/go-grammar" />
+        <item itemvalue="Go Test.Test_SliceCapacity in learn-go/go-grammar" />
       </list>
     </recent_temporary>
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-=======
-        <item itemvalue="Go Test.Test_maxPresent in learn-go/algorithm" />
-        <item itemvalue="Go Build.go build github.com/yangchuang123456/learn-go (1)" />
-        <item itemvalue="Go Build.go build github.com/yangchuang123456/learn-go" />
-        <item itemvalue="Go Test.Test_maxPathSum in github.com/yangchuang123456/learn-go/algorithm" />
-        <item itemvalue="Go Test.Test_generateTree in github.com/yangchuang123456/learn-go/algorithm" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
-    </recent_temporary>
+    </option>
   </component>
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VgoProject">
-<<<<<<< HEAD
-    <proxy>direct</proxy>
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1803" height="290" key="GridCell.Tab.0.bottom" timestamp="1586341823333">
-      <screen x="65" y="24" width="1855" height="1056" />
-    </state>
-    <state width="1803" height="290" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1586341823333" />
-    <state width="1803" height="290" key="GridCell.Tab.0.center" timestamp="1586341823333">
-      <screen x="65" y="24" width="1855" height="1056" />
-    </state>
-    <state width="1803" height="290" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1586341823333" />
-    <state width="1803" height="290" key="GridCell.Tab.0.left" timestamp="1586341823333">
-      <screen x="65" y="24" width="1855" height="1056" />
-    </state>
-    <state width="1803" height="290" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1586341823333" />
-    <state width="1803" height="290" key="GridCell.Tab.0.right" timestamp="1586341823333">
-      <screen x="65" y="24" width="1855" height="1056" />
-    </state>
-    <state width="1803" height="290" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1586341823333" />
-    <state x="516" y="174" key="SettingsEditor" timestamp="1586340701959">
-      <screen x="65" y="24" width="1855" height="1056" />
-    </state>
-    <state x="516" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1586340701959" />
-=======
     <integration-enabled>true</integration-enabled>
-    <proxy>https://goproxy.io</proxy>
+    <proxy>https://goproxy.cn</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#GOROOT" timestamp="1586873141045">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="662" y="350" width="628" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594386001038">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="552" y="178" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1586873141045" />
-    <state x="668" y="153" key="#go_build_github.com/yangchuang123456/learn-go" timestamp="1586873085753">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="662" y="350" width="628" height="406" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1594386001038" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597195851055">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="668" y="153" key="#go_build_github.com/yangchuang123456/learn-go/0.0.1920.1040@0.0.1920.1040" timestamp="1586873085753" />
-    <state x="668" y="153" key="#go_build_github.com/yangchuang123456/learn-go_(1)" timestamp="1586873117056">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1597195851055" />
+    <state width="1799" height="345" key="GridCell.Tab.0.bottom" timestamp="1597314362687">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="668" y="153" key="#go_build_github.com/yangchuang123456/learn-go_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1586873117056" />
-    <state x="694" y="281" key="EnvironmentVariablesDialog" timestamp="1586873112626">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1799" height="345" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1597314362687" />
+    <state width="1799" height="345" key="GridCell.Tab.0.center" timestamp="1597314362687">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="694" y="281" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586873112626" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1586873010273">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1799" height="345" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1597314362687" />
+    <state width="1799" height="345" key="GridCell.Tab.0.left" timestamp="1597314362686">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586873010273" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586873424572">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1799" height="345" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1597314362686" />
+    <state width="1799" height="345" key="GridCell.Tab.0.right" timestamp="1597314362687">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586873424572" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586873424571">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1799" height="345" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1597314362687" />
+    <state x="475" y="187" key="SettingsEditor" timestamp="1597313711807">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586873424571" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586873424571">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586873424571" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586873424571">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586873424571" />
-    <state x="461" y="161" key="SettingsEditor" timestamp="1586873151257">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586873151257" />
->>>>>>> 60775f9a86b9cffbbeac4e0505bc352fe86d2cca
+    <state x="475" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1597313711807" />
   </component>
 </project>

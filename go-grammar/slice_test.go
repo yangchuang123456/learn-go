@@ -79,3 +79,12 @@ func Test_SliceFuncParameter(t *testing.T){
 	changeSlice2(a)
 	log.Println("the a is:",a)
 }
+
+func Test_SliceCapacity(t *testing.T){
+	tmp := make([]int,0,1)
+	tmp = append(tmp,0)
+	tmp = append(tmp,1)
+	tmp = append(tmp,2)
+	tmp = append(tmp,3)
+	log.Println("the tmp is:",tmp)
+}

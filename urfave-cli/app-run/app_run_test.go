@@ -5,6 +5,7 @@ import (
 	"github.com/urfave/cli"
 	"learn-go/urfave-cli/flags"
 	"log"
+	"os"
 	"testing"
 )
 
@@ -45,4 +46,17 @@ func Test_appRun(t *testing.T){
 	correctArgs := []string{"./main","--node_name","default_b0","--data_dir","/home/qydev/tmp/dipperin_apps/default_b0","--node_type","3","--p2p_listener",":10003","--m_port","9202","--pprofport","20002","--http_port","10004","--ws_port","10005","--ipc_path","/home/qydev/tmp/dipperin_apps/default_b0/dipperin.ipc","--soft_wallet_pwd","123","--is_start_mine","1","--pprof=true","--debug_mode","2","--log_level","info","--is_upload_node_data","1","--upload_url","http://127.0.0.1:8887/api/dipperin_nodes"}
 	err = app.Run(correctArgs)
 	assert.NoError(t,err)
+}
+
+func Test_ParsePar(t *testing.T){
+	app := cli.NewApp()
+	app.Action = func(c *cli.Context) error {
+		log.Println("the parse parameter is:",c.Args().Get(0))
+		return nil
+	}
+
+	testInput := "proving"
+	app.Run([]string{"./testParsePar",testInput})
+
+	log.Println("the os args is:",os.Args)
 }
