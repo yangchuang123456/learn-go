@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8aa7fa4-926b-4103-9f56-6a662e47ad19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-grammar/fallthrough_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-grammar/sort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-grammar/errors_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uber-fx/fx_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uber-fx/options.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pprof/pprof_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pprof/pprof_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-design/filecoin-fsm/filecoin_fsm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/soft-design/filecoin-fsm/filecoin_fsm_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +59,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ipfsmain/project/xinji/lotus" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -65,11 +70,36 @@
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/uber-fx" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/etcd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_Sort in learn-go/go-grammar">
+  <component name="RunManager" selected="Go Test.Test_error_wrap in learn-go/go-grammar">
+    <configuration name="Test_PProf in learn-go/pprof" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go" />
+      <working_directory value="$PROJECT_DIR$/pprof" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn-go/pprof" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_PProf$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_PProf_scope in learn-go/pprof" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go" />
+      <working_directory value="$PROJECT_DIR$/pprof" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn-go/pprof" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_PProf_scope$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_Sort in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$/go-grammar" />
@@ -81,7 +111,7 @@
       <pattern value="^Test_Sort$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_append in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_error_wrap in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
       <working_directory value="$PROJECT_DIR$/go-grammar" />
       <framework value="gotest" />
@@ -89,49 +119,27 @@
       <package value="learn-go/go-grammar" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_append$" />
+      <pattern value="^Test_error_wrap$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_etcd in learn-go/etcd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_fx in learn-go/uber-fx" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/etcd" />
+      <working_directory value="$PROJECT_DIR$/uber-fx" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learn-go/etcd" />
+      <package value="learn-go/uber-fx" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_etcd$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_fallThrough in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/go-grammar" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="learn-go/go-grammar" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_fallThrough$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_for in learn-go/go-grammar" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn-go" />
-      <working_directory value="$PROJECT_DIR$/go-grammar" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="learn-go/go-grammar" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_for$" />
+      <pattern value="^Test_fx$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_error_wrap in learn-go/go-grammar" />
+        <item itemvalue="Go Test.Test_fx in learn-go/uber-fx" />
+        <item itemvalue="Go Test.Test_PProf in learn-go/pprof" />
+        <item itemvalue="Go Test.Test_PProf_scope in learn-go/pprof" />
         <item itemvalue="Go Test.Test_Sort in learn-go/go-grammar" />
-        <item itemvalue="Go Test.Test_fallThrough in learn-go/go-grammar" />
-        <item itemvalue="Go Test.Test_etcd in learn-go/etcd" />
-        <item itemvalue="Go Test.Test_append in learn-go/go-grammar" />
-        <item itemvalue="Go Test.Test_for in learn-go/go-grammar" />
       </list>
     </recent_temporary>
   </component>
@@ -174,29 +182,49 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="662" y="350" width="628" height="406" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1594386001038" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598576637282">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601255456358">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598576637281" />
-    <state width="1799" height="338" key="GridCell.Tab.0.bottom" timestamp="1599829417534">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1601255456358" />
+    <state width="1799" height="202" key="GridCell.Tab.0.bottom" timestamp="1601031086470">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="338" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599829417534" />
-    <state width="1799" height="338" key="GridCell.Tab.0.center" timestamp="1599829417533">
+    <state width="1799" height="202" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1601031086470" />
+    <state width="1799" height="202" key="GridCell.Tab.0.center" timestamp="1601031086470">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="338" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599829417533" />
-    <state width="1799" height="338" key="GridCell.Tab.0.left" timestamp="1599829417533">
+    <state width="1799" height="202" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1601031086470" />
+    <state width="1799" height="202" key="GridCell.Tab.0.left" timestamp="1601031086470">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="338" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599829417533" />
-    <state width="1799" height="338" key="GridCell.Tab.0.right" timestamp="1599829417534">
+    <state width="1799" height="202" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1601031086470" />
+    <state width="1799" height="202" key="GridCell.Tab.0.right" timestamp="1601031086470">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="338" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599829417534" />
+    <state width="1799" height="202" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1601031086470" />
+    <state width="1799" height="202" key="GridCell.Tab.1.bottom" timestamp="1601031086471">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="202" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1601031086471" />
+    <state width="1799" height="202" key="GridCell.Tab.1.center" timestamp="1601031086471">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="202" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1601031086471" />
+    <state width="1799" height="202" key="GridCell.Tab.1.left" timestamp="1601031086471">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="202" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1601031086471" />
+    <state width="1799" height="202" key="GridCell.Tab.1.right" timestamp="1601031086471">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="202" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1601031086471" />
     <state x="475" y="187" key="SettingsEditor" timestamp="1597313711807">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="475" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1597313711807" />
+    <state x="686" y="238" width="615" height="628" key="find.popup" timestamp="1601015544816">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="686" y="238" width="615" height="628" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1601015544816" />
   </component>
 </project>
