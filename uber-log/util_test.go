@@ -62,11 +62,17 @@ func TestCurExecPath1(t *testing.T) {
 func Test_log(t *testing.T){
 	err:=os.Setenv("XLotusLogOn","true")
 	assert.NoError(t,err)
-	l:=GetXDebugLog("lotus")
+	config:=LogToWorkDir(CurExecDir(), "lotus", zap.DebugLevel, true)
+	config.OutputPaths =append(config.OutputPaths,"stdout")
+	l,err:=config.Build()
+	assert.NoError(t,err)
 	l.Info("test debug",zap.String("key","value"))
 
-	l2:=GetXDebugLog("actor")
-	l2.Info("test debug",zap.String("key","value"))
+	config =LogToWorkDir(CurExecDir(), "actor", zap.DebugLevel, true)
+	config.OutputPaths =append(config.OutputPaths,"stdout")
+	l2,err:=config.Build()
+	assert.NoError(t,err)
+	l2.Info("test debug2",zap.String("key","value"))
 
 	os.RemoveAll("./logs")
 }

@@ -61,3 +61,59 @@ func Test_makeFunc(t *testing.T){
 	println(intAdd(100, 200))
 	println(strAdd("hello, ", "world!"))
 }
+
+func Test_getStructField(t *testing.T){
+	type type1 struct {
+		A int
+	}
+	type type2 struct {
+		B string
+	}
+
+	type type3 struct {
+		C int
+		D type1
+		E type2
+	}
+
+	type type4 struct {
+		C int
+		type1
+		type2
+	}
+
+	testValue := type3{
+		C:0,
+		D: type1{
+			A:1,
+		},
+		E:type2{
+			B:"test",
+		},
+	}
+	value := reflect.ValueOf(testValue)
+	number:=value.NumField()
+	for i:=0;i<number;i++{
+		log.Println("the field is:",value.Field(i))
+	}
+
+	log.Println(value.FieldByName("D"))
+	log.Println(value.FieldByName("A"))
+
+	testValue2 := type4{
+		C:0,
+		type1:type1{
+			A: 1,
+		},
+		type2:type2{
+			B:"test",
+		},
+	}
+	value = reflect.ValueOf(testValue2)
+	number =value.NumField()
+	for i:=0;i<number;i++{
+		log.Println("the field is:",value.Field(i))
+	}
+	log.Println(value.FieldByName("A"))
+	log.Println(value.FieldByName("B"))
+}
