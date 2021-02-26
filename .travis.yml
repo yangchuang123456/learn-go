@@ -1,5 +1,12 @@
 language: go
-
 go:
-  - 1.x
-  - master
+- '1.0'
+- '1.3'
+deploy:
+  provider: releases
+  api_key:
+    secure: JyuBe0BOOdGyAcg4b5mbjS/RlDqVIKIn6Bc/4PxBAWKULAqFvM49Z/4hD6etv9n7y0+p3XRYXkG903BcINNAzD6DtPyl+96kECSPkvppxJ7oqR+/M7EH5IlBF+qWhGPsIoEFNAsGaykvJTRv4TaX5ReywTzUf/iuTK5WEkLVe1VoMp9AirP68B8qD7EEXW+EUnt64E0+4cAWiae4/HpZu+Bit56MMuZx1q1KOGG6iUHD9M7UXGMYN+5Yh3F47r4GFS1svKrIy/kFGjupKSAs7GU/zrBf7ufuCcEeVRfK6mxRsUyDIGb12EPlAniPtw7WOzpyJmBQZYpc+fDcw7WD6IUL4lAKB+PFmkCoVY067KAXpDFeU39NalF0PrbsIWVazWYSLr08RPeiTkNSnxDZbrtWphnBo7RX5CYEAx3O8swt3clWs/+Z0OcsQpB7oZkBd79Fx6D1vYZflkL72jMf7lNvr4tY1V+g4iiz3JskNYbuCSH75AnGUKg6m+hfzyRkLduQGeGbp8uH0aZ6v73DuH/WBWsQ38OqZQj7VMbKIAbPCu2kvaxRsqF1QMn49V75s2vWAYOLWuIzx9mUPSSK4ASee+CZCAiQs33asi6wDhPX6gjWXlIlqy9SICH6eBz0+LzmV5wjTU8WSsVpzIsUZUJSd3LVmCiz9iD6ytqJ0sw=
+  file: learn-go
+  on:
+    repo: yangchuang123456/learn-go
+    branch: dev
