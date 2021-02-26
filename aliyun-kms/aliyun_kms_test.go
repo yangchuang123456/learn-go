@@ -12,8 +12,8 @@ import (
 )
 
 var client *kms.Client
-var AccessKeyId = tea.String("LTAI4G9GzWh8vcDj6LbUhu2M")
-var AccessKeySecret = tea.String("7Xhg84hMia87OBzHvVqdCHnL9z9Yug")
+var AccessKeyId = tea.String("testKeyId")
+var AccessKeySecret = tea.String("testKeySecret")
 
 func init() {
 	var err error
